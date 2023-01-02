@@ -4,7 +4,6 @@ Whenever you go to the bank to deposit some cash money, the cashier places bankn
 
 # Authenticating whether a banknote is real or not is one of the most common tasks in the banking industry.
 In this article, we explain the process of building a banknote authentication system using machine learning algorithms. After reading this article, you will be able to understand how classification systems are built using machine learning algorithms.
-•
 
 # BankNote Dataset Description
 We will be working with the “Banknote” standard binary classification dataset.
@@ -33,3 +32,23 @@ We can see that perhaps the first two variables have a Gaussian-like distributio
 
 
 # Process of building a banknote authentication system
+Use the Banknote Authentication data to implement your own simple KNN
+classifier using python, (Don’t use any built-in functions), divide your data into
+70% for training and 30% for testing.
+
+    1.  If there is a tie in the class predicted by the k -nearest neighbors, then among the classes that have the same number 
+        of votes, the tie should be broken in favor of the class that comes first in the Train file.
+        
+    2.  Each feature column should be normalized separately from all other features. Specifically, for both training and test objects,
+        each feature should be transformed using the function: f(v) = (v - mean) / std, using the mean and std of the values of that
+        feature column on the WHOLE data.
+    
+    3.  Use Euclidean distance to compute distances between instances.
+    
+    4.  Experiment with different values of k=1,2,3....9 and output the following:
+    
+         a. The value of k used for the test set on the first line followed by summary info for the current k value: 
+            
+              1) Number of correctly classified test instances.
+            
+              2) The total number of instances in the test set and accuracy.
