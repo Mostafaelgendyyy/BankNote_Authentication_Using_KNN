@@ -52,3 +52,8 @@ classifier using python, (Don’t use any built-in functions), divide your data 
               1) Number of correctly classified test instances.
             
               2) The total number of instances in the test set and accuracy.
+              
+              
+# Performance of Model Predictions Across K 
+![image](https://user-images.githubusercontent.com/85330521/210284128-9c2705bb-09ae-42e0-b3db-0a8634ad6542.png)
+
